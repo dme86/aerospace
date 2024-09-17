@@ -62,10 +62,14 @@ if [[  "$ICO" == "" ]]; then
   ICO="󱣶"
 fi
 
+# Add the weather item to the bracket
 sketchybar --add event weather \
-           --add item brew right   \
+           --add item weather right   \
            --set weather icon="$ICO" \
-           --set weather label="$TEMPERATURE"
+                             label="$TEMPERATURE" \
+                             label.align=left \
+                             padding_left=5 \
+                             padding_right=5
 
 # Print the weather icon and temperature
 # printf "$ICO $TEMPERATURE"
