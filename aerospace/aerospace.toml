@@ -108,7 +108,7 @@ alt-shift-c = 'close'
 alt-h = 'focus down'
 alt-j = 'focus left'
 alt-k = 'focus right'
-alt-l = 'focus up'
+#alt-l = 'focus up'
 
 # "toggle fullscreen / tiling"
 alt-f = 'layout tiles accordion'
